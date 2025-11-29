@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6" />
+    <title>Login</title>
     <link rel="icon" href="/media/logo.png" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../style/style.css" />
@@ -20,7 +20,7 @@
             <a href="../htdocs/Menu.html">Menu</a>
           </li>
           <li class="one">
-            <a href="#">About</a>
+            <a href="../htdocs/index.html">About</a>
           </li>
           <li class="one">|</li>
           <li class="one">
@@ -38,14 +38,15 @@
     </header>
 
     
-      <div class="container1">
+  <div class="container1">
     <h2>Welcome Back</h2>
-    <form>
-      <label for="username">Username:</label>
-      <input id="username1" type="text" placeholder="you@example.com"/>
-      <label for="username">Password:</label>
-      <input id="pass1" type="password" placeholder="*******"/><br>
-      <button id="btn1" type="button">Login</button>
+    <p class="form-cap">Enter your details to access your rewards</p>
+    <form method="post" target="_blank">
+      <label for="username1">Email:</label>
+      <input id="username1" type="email" placeholder="you@example.com" required/>
+      <label for="pass1">Password:</label>
+      <input id="pass1" type="password" placeholder="*******" required/><br>
+      <button id="btn1" type="submit"><b>Login</b></button>
     </form>Don't have an account?
     <a href="signup.html" class="signin-link" style="color : #FFA500"> Sign up </a>
   </div>
