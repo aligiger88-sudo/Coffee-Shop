@@ -30,7 +30,7 @@ The project focuses on:
 - Omar Karam
 - Omar Tamer
 - Ali Youssri
-- Ali Soliman
+- Ali Soliman Ahmed
 
 
 
